@@ -38,7 +38,7 @@ int main()
 
  // Lendo com get
  //gets(palavras); // O uso de gets pode levar a graves vulnerabilidades de buffer overflow. Use a alternativa segura fgets.
- fgets(palavras, 10, stdin); // só vai ler o tamanho - 1 (Segura)
+ fgets(palavras, 10, stdin); // só vai ler o tamanho - 1 (Segura) Precisa aplicar mascara no stdin para espaços em branco
 
  printf("%d\n", numI);
  printf("%f\n", numF);
